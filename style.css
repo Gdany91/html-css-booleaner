@@ -7,12 +7,12 @@
 /*  intestazione  */
 #logo{
   width: 150px;
-  margin-top: 30px;
+  margin-top: 20px;
   padding-left: 1%;
 }
 
 header{
-    height: 75px;
+    height: 60px;
     background-image: url(img/pattern.png);
     background-size: 20%;
     background-color: cornflowerblue;
@@ -24,10 +24,24 @@ header{
 main{
         padding-left: 1%;
     }
-    
+
+
+    /* title */
+    .title h1{
+        padding-right: 30%;
+    }
+
+
     /* under the title */
     .copyright{
-        font-size: 10px;
+        font-size: 12px;
+        display: block;
+        color: grey;
+        font-weight: bold;
+    }
+    /* descrizione foto */
+
+    .pic-description span {
         display: block;
     }
 
@@ -37,22 +51,27 @@ main{
     }
 
     /* intro */
-    p{
-        padding-top: 1%;
+    .intro{
+        padding-top: 2%;
         padding-bottom: 2%;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .intro span {
+        background-color: yellow;
     }
 
     /* <!-- lista -->*/
     ul{
         padding-left: 1%;
         margin-bottom: 2%;
+        font-size: 20px;
+        font-weight: bold;
     }
 
     /* tabella dati  */
-    thead{
-        display: inline-block;
-    }
-    .first-item{
-        margin:30px;
-        display: inline-block;
+  
+    .tab{
+        width: 100%;
     }
