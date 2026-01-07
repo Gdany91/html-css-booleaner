@@ -73,5 +73,26 @@ main{
     /* tabella dati  */
   
     .tab{
+        border-collapse: collapse;
         width: 100%;
+        font-size: 17px;
+        font-weight: bold;
     }
+
+    .tab-int{
+        background-color:#3399ff ;
+        color: white;
+        
+    }
+
+    .tab-int th{
+        text-align: left;
+        width: 10px;
+    }
+
+    .even-line{
+        background-color:#66ccff;
+    }
+
+
+   
